@@ -1,0 +1,80 @@
+{
+  "en": {
+    "nav": {
+      "products": "Products",
+      "vision": "Vision",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Live SaaS Prototypes",
+      "subtitle": "Experience cutting-edge AI solutions built to solve real problems. Explore our prototypes and see the future of intelligent software.",
+      "cta_primary": "View Prototypes",
+      "cta_secondary": "Contact Us"
+    },
+    "products": {
+      "title": "Our Prototypes",
+      "subtitle": "Click any prototype to try it live",
+      "badge_live": "Live",
+      "cta_demo": "Open Demo"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "paragraph1": "At Fushion AI, we believe artificial intelligence should enhance human capabilities, not replace them. Our prototypes demonstrate how AI can streamline workflows, improve decision-making, and create more intuitive user experiences.",
+      "paragraph2": "Each prototype addresses real-world challenges faced by businesses today. From simplifying appointment scheduling to enabling natural conversations with your data, we're building the tools that will define tomorrow's work environment."
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "subtitle": "Ready to discuss how AI can transform your business?",
+      "email": "Email Us",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "details": "Contact Details",
+      "company": "Fushion AI",
+      "phone": "+31 (0)6 1099 1835"
+    },
+    "footer": {
+      "copyright": "© {year} Fushion AI. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "nl": {
+    "nav": {
+      "products": "Producten",
+      "vision": "Visie",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Live SaaS Prototypes",
+      "subtitle": "Ervaar geavanceerde AI-oplossingen gebouwd om echte problemen op te lossen. Ontdek onze prototypes en zie de toekomst van intelligente software.",
+      "cta_primary": "Bekijk Prototypes",
+      "cta_secondary": "Contact"
+    },
+    "products": {
+      "title": "Onze Prototypes",
+      "subtitle": "Klik op een prototype om het live te proberen",
+      "badge_live": "Live",
+      "cta_demo": "Open Demo"
+    },
+    "vision": {
+      "title": "Onze Visie",
+      "paragraph1": "Bij Fushion AI geloven we dat kunstmatige intelligentie menselijke capaciteiten moet versterken, niet vervangen. Onze prototypes demonstreren hoe AI workflows kan stroomlijnen, besluitvorming kan verbeteren en intuïtievere gebruikerservaringen kan creëren.",
+      "paragraph2": "Elk prototype pakt echte uitdagingen aan waarmee bedrijven vandaag worden geconfronteerd. Van het vereenvoudigen van afspraakplanning tot het mogelijk maken van natuurlijke gesprekken met je data, we bouwen de tools die de werkomgeving van morgen zullen definiëren."
+    },
+    "contact": {
+      "title": "Neem Contact Op",
+      "subtitle": "Klaar om te bespreken hoe AI jouw bedrijf kan transformeren?",
+      "email": "E-mail Ons",
+      "whatsapp": "WhatsApp",
+      "linkedin": "LinkedIn",
+      "details": "Contactgegevens",
+      "company": "Fushion AI",
+      "phone": "+31 (0)6 1099 1835"
+    },
+    "footer": {
+      "copyright": "© {year} Fushion AI. Alle rechten voorbehouden.",
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden"
+    }
+  }
+}

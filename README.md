@@ -1,73 +1,159 @@
-# Welcome to your Lovable project
+# Fushion AI - Landing Page
 
-## Project info
+A modern, bilingual (NL/EN) landing page showcasing live SaaS prototypes built with Vite, React, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/ab066a58-0881-4572-961c-7d1b4f515d78
+## Features
 
-## How can I edit this code?
+- 🌐 **Bilingual**: Dutch and English with easy language toggle
+- 🚀 **Live Prototypes**: Showcase 3 working SaaS applications
+- 🎨 **Modern Design**: Clean UI with Tailwind CSS and custom design system
+- 📱 **Responsive**: Mobile-first design that works on all devices
+- ⚡ **Fast**: Built with Vite for lightning-fast development and builds
+- 🎯 **SEO Optimized**: Meta tags, Open Graph, and semantic HTML
+- 📊 **Data-Driven**: Projects loaded from JSON for easy updates
 
-There are several ways of editing your application.
+## Quick Start
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ab066a58-0881-4572-961c-7d1b4f515d78) and start prompting.
+- Node.js (v18 or higher)
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd fushionai-showcase
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Install dependencies
+npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run deploy       # Deploy to GitHub Pages (requires setup)
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+### GitHub Pages
 
-This project is built with:
+1. Update `vite.config.ts` with your repository name:
+```typescript
+export default defineConfig({
+  base: '/your-repo-name/', // Add this line
+  // ... rest of config
+})
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. Install gh-pages:
+```bash
+npm install --save-dev gh-pages
+```
 
-## How can I deploy this project?
+3. Add deploy scripts to `package.json`:
+```json
+{
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
+```
 
-Simply open [Lovable](https://lovable.dev/projects/ab066a58-0881-4572-961c-7d1b4f515d78) and click on Share -> Publish.
+4. Deploy:
+```bash
+npm run deploy
+```
 
-## Can I connect a custom domain to my Lovable project?
+### Netlify / Vercel
 
-Yes, you can!
+1. Connect your repository
+2. Build command: `npm run build`
+3. Publish directory: `dist`
+4. Deploy!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Project Structure
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
+src/
+├── components/          # React components
+│   ├── Header.tsx      # Navigation header
+│   ├── Hero.tsx        # Hero section with CTA
+│   ├── Products.tsx    # Prototypes grid
+│   ├── ProductCard.tsx # Individual prototype card
+│   ├── Vision.tsx      # Vision section
+│   ├── Contact.tsx     # Contact section
+│   └── Footer.tsx      # Footer
+├── data/
+│   └── projects.json   # Prototype data
+├── i18n/
+│   └── i18n.json      # Translations (NL/EN)
+├── hooks/
+│   └── useLanguage.tsx # Language context & hook
+└── pages/
+    └── Index.tsx       # Main page
+
+```
+
+## Customization
+
+### Update Prototypes
+
+Edit `src/data/projects.json` to add/modify prototypes:
+
+```json
+{
+  "id": "unique-id",
+  "name": "Project Name",
+  "url": "https://demo-url.com",
+  "tagline_en": "English tagline",
+  "tagline_nl": "Nederlandse tagline",
+  "bullets_en": ["Feature 1", "Feature 2"],
+  "bullets_nl": ["Functie 1", "Functie 2"],
+  "status": "live",
+  "icon": "Calendar",
+  "note_en": "Optional note",
+  "note_nl": "Optionele notitie"
+}
+```
+
+### Update Translations
+
+Edit `src/i18n/i18n.json` to modify or add translations.
+
+### Brand Colors
+
+The site uses Tailwind's blue-500 as the primary brand color. To change:
+
+1. Edit `src/index.css` CSS variables
+2. Update `tailwind.config.ts` color definitions
+
+## Tech Stack
+
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Language**: TypeScript
+
+## Contact
+
+- **Email**: info@fushionai.com
+- **WhatsApp**: +31 (0)6 1099 1835
+- **LinkedIn**: [Fushion AI](https://www.linkedin.com/company/105873625)
+
+## License
+
+© 2025 Fushion AI. All rights reserved.

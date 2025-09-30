@@ -1,0 +1,64 @@
+[
+  {
+    "id": "viewing-planner-pro",
+    "name": "Viewing Planner Pro",
+    "url": "https://viewing-planner-pro.lovable.app/",
+    "tagline_en": "Let buyers pick a time slot and confirm viewings in minutes.",
+    "tagline_nl": "Laat kopers een tijdslot kiezen en bevestig bezichtigingen in minuten.",
+    "bullets_en": [
+      "Fewer back-and-forth emails",
+      "Automatic slot selection",
+      "Faster conversion"
+    ],
+    "bullets_nl": [
+      "Minder e-mail heen-en-weer",
+      "Automatische slotselectie",
+      "Snellere conversie"
+    ],
+    "status": "live",
+    "tags": ["scheduling", "real-estate"],
+    "icon": "Calendar"
+  },
+  {
+    "id": "ai-voice-assistant",
+    "name": "AI Voice Assistant",
+    "url": "https://ai-voice-assistant-mmza.onrender.com/",
+    "tagline_en": "Talk to an AI that knows your clients, orders, and internal context.",
+    "tagline_nl": "Praat met een AI die je klanten, orders en context kent.",
+    "bullets_en": [
+      "Real-time customer & order data",
+      "Answers questions & executes tasks",
+      "Hands-free service, 24/7"
+    ],
+    "bullets_nl": [
+      "Realtime klant- en orderdata",
+      "Vragen beantwoorden & taken uitvoeren",
+      "Handsfree service, 24/7"
+    ],
+    "status": "live",
+    "tags": ["voice", "AI", "automation"],
+    "note_en": "May take a few seconds — server is waking up.",
+    "note_nl": "Kan enkele seconden duren — server wordt wakker.",
+    "icon": "Mic"
+  },
+  {
+    "id": "document-qa-rag",
+    "name": "Document Q&A (RAG)",
+    "url": "https://rag-documentfront.onrender.com/",
+    "tagline_en": "Upload large documents and ask grounded questions — answers cite your data.",
+    "tagline_nl": "Upload documenten en stel vragen — antwoorden verwijzen naar je data.",
+    "bullets_en": [
+      "Handles large PDFs/reports",
+      "Grounded Q&A with citations",
+      "Ideal for knowledge bases & due diligence"
+    ],
+    "bullets_nl": [
+      "Grote PDF's/rapporten ondersteunen",
+      "Grounded Q&A met bronvermelding",
+      "Ideaal voor kennisbanken en due diligence"
+    ],
+    "status": "live",
+    "tags": ["RAG", "documents", "Q&A"],
+    "icon": "FileText"
+  }
+]
